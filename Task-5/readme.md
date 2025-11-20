@@ -30,4 +30,5 @@ Exploratory Data Analysis (EDA)  – Train Dataset
 
 • Most passengers were young and paid low fares.
 
+
 • High fares appear across all ages but mainly in 1st-class passengers.
