@@ -1,6 +1,6 @@
-Exploratory Data Analysis (EDA)  – Train Dataset
+# Exploratory Data Analysis (EDA)  – Train Dataset
 
-1. Pairplot (Survived, Pclass, Age, Fare)
+# 1. Pairplot (Survived, Pclass, Age, Fare)
 
 • Passengers in 1st class had higher survival rates.
 
@@ -8,7 +8,7 @@ Exploratory Data Analysis (EDA)  – Train Dataset
 
 • Clear relationships exist between Pclass, Fare, and Survival.
 
-2. Histogram of Age
+# 2. Histogram of Age
 
 • Most passengers were between 20–40 years old.
 
@@ -16,7 +16,7 @@ Exploratory Data Analysis (EDA)  – Train Dataset
 
 • KDE shows young adults were the most common age group.
 
-3. Boxplot of Fare by Pclass
+# 3. Boxplot of Fare by Pclass
 
 • Fare decreases across classes (1st > 2nd > 3rd).
 
@@ -24,11 +24,11 @@ Exploratory Data Analysis (EDA)  – Train Dataset
 
 • All classes display outliers, showing ticket price variability.
 
-4. Scatterplot: Age vs Fare
+# 4. Scatterplot: Age vs Fare
 
 • No strong correlation between Age and Fare.
 
 • Most passengers were young and paid low fares.
 
-
 • High fares appear across all ages but mainly in 1st-class passengers.
+
