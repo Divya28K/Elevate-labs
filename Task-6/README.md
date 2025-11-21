@@ -1,68 +1,55 @@
-✅ What Is This Project About?
-This project is a sales trend analysis using SQL. You’re working with an e-commerce dataset (online_sales_orders.csv) that contains over 600 rows of order data, including:
+# 📊 Task 6: Sales Trend Analysis Using Aggregations
 
-Order date
+This project performs sales trend analysis using SQL to calculate monthly revenue and order volume from an online sales dataset.
 
-Product ID
+# 📌 Objective
 
-Customer ID
+Analyze:
 
-Category
+• Monthly revenue
 
-Amount (price)
+• Monthly order volume
 
-Payment method
+• Time-based sales trends
 
-Order status
+# 🛠️ Tools Used
 
-Your goal is to analyze the sales data and answer business questions like:
+• PostgreSQL / MySQL / SQLite
 
-How much money did we make each month?
+• SQL Aggregation Functions
 
-How many orders were placed?
+# 📂 Dataset
 
-What are the top-selling months?
+Table Name: online_sales
+• order_id
 
-Which product categories earn the most?
+• order_date
 
-What payment methods are most used?
+• product_id
 
-📈 What You Did (Steps)
-Explored the dataset using simple SQL queries (like SELECT, WHERE, ORDER BY)
+• customer_id
 
-Grouped the data by month and year to calculate:
+• category
 
-Monthly revenue (SUM(amount))
+• amount
 
-Monthly order volume (COUNT(DISTINCT order_id))
+• payment_method
 
-Used SQL aggregate functions like SUM(), COUNT(), EXTRACT() to analyze data over time.
+• status
 
-Identified trends, like:
+# 🧠 SQL Concepts Applied
 
-Best months by revenue
+• EXTRACT(YEAR FROM order_date) → get year
 
-Most popular product categories
+• EXTRACT(MONTH FROM order_date) → get month
 
-Most used payment methods
+• SUM(amount) → calculate total monthly revenue
 
-Wrote SQL queries to answer common interview-style questions.
+• COUNT(DISTINCT order_id) → calculate order volume
 
-🛠 Why This Project Is Useful
-This project helps you:
+• GROUP BY year, month → aggregate data
 
-Practice real-world SQL used in data analytics and business intelligence jobs.
+• ORDER BY year, month → sort results
 
-Learn how to group, filter, and analyze data using SQL.
 
-Answer questions that help businesses make better decisions.
-
-Prepare for SQL interviews or data analyst internships.
-
-📁 What’s in the Project Folder?
-File Name	What It Contains
-online_sales_orders.csv	Sample sales dataset
-basic_queries.sql	Easy SQL queries to explore the data
-task6_queries.sql	Advanced SQL queries to analyze trends
-README.md	Explanation of the project, queries, and output
 
