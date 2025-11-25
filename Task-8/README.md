@@ -1,4 +1,4 @@
-# Superstore Sales Dashboard - README
+## Superstore Sales Dashboard 
 
 ## Overview
 
@@ -69,6 +69,7 @@ The Superstore Sales Dashboard is an interactive data visualization tool designe
 * Focus marketing efforts during peak sales months.
 * Streamline operations for faster ship modes.
 * Investigate reasons behind high return rates.
+
 
 
 
